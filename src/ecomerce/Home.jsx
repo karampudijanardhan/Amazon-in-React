@@ -1,3 +1,4 @@
+
 const Boxes = () => {
     return ( 
         <div className="box">
@@ -12,7 +13,7 @@ const Company = () => {
     return ( 
         <div className="com">
             <i class='bx bx-bar-chart'></i>
-            <h1>Company secretarial Service</h1>
+            <h2>Company secretarial Service</h2>
 <p>Amazon's company secretarial services ensure
      compliance with corporate governance, regulatory requirements, 
      and legal obligations across its global operations. </p>
@@ -20,6 +21,7 @@ const Company = () => {
         </div>
      );
 }
+
 const Virtual = () => {
     return ( 
         <div className="vir">
@@ -31,6 +33,7 @@ const Virtual = () => {
         </div>
      );
 }
+
 const Annual = () => {
     return ( 
         <div className="anul">
@@ -53,7 +56,7 @@ const Payroll = () => {
         </div>
      );
 }
-const Booking = () => {
+const Cooking = () => {
     return (
         <div className="book">
             <i class='bx bx-file'></i>
@@ -64,6 +67,8 @@ const Booking = () => {
         </div>
       );
 }
+
+
 const All = () => {
     return ( 
         <div className="all">
@@ -71,60 +76,77 @@ const All = () => {
         </div>
      );
 }
-const Footer = () => {
-    return ( 
+
+export const Footer = () => {
+  return (
     <footer className="footer">
-         <p>Design outstanding interfaces with
-            advanced Figma features in a matter of minites.</p>
-            <i class='bx bxl-facebook-circle'></i>
-            <i class='bx bxl-google'></i>
-            <i class='bx bxl-apple'></i>
-            <i class='bx bxl-instagram'></i>
-            <h2>START A BUSINESS</h2>
-            <ul>
-                <li>Features</li>
-                <li>Solutions</li>
-                <li>Integration</li>
-                <li>Enterprise</li>
-                <li>Prizes</li>
-            </ul>
-            <h3>GOVERNMENT REGISTRATION</h3>
-            <ol>
-                <li>Partners</li>
-                <li>Community</li>
-                <li>Developers</li>
-                <li>App</li>
-                <li>Blog</li>
-            </ol>
+         <div className="footer-details-cont">
+            <div className="social-logos-cont">
+                <p>Design outstanding interfaces with
+                    advanced Figma features in a matter of minites.
+                </p>
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-google'></i>
+                <i class='bx bxl-apple'></i>
+                <i class='bx bxl-instagram'></i>
+            </div>
+            <div style={{display:'flex', flexDirection:'column', gap:'20px',flexWrap:'wrap'}}>
+                <div style={{display:'flex',gap:'50px',flexWrap:'wrap'}}>
+                    <div>
+                        <h2>START A BUSINESS</h2>
+                        <ul>
+                            <li>Features</li>
+                            <li>Solutions</li>
+                            <li>Integration</li>
+                            <li>Enterprise</li>
+                            <li>Prizes</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>GOVERNMENT REGISTRATION</h2>
+                        <ol>
+                            <li>Partners</li>
+                            <li>Community</li>
+                            <li>Developers</li>
+                            <li>App</li>
+                            <li>Blog</li>
+                        </ol>
+                    </div>
+                </div>
+                <div style={{display:'flex',gap:'50px',flexWrap:'wrap'}}>
+                    <div>
+                        <h2>COMPLIANCE & TAX</h2>
+                        <ul>
+                        <li><a href="">Channels</a></li>
+                        <li><a href="">Scale</a></li>
+                        <li><a href="">Watch the Demo</a></li>
+                        <li><a href="">Our Competition</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>BIS & CDSCO</h2>
+                        <ol>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">News</a></li>
+                            <li><a href="">Leadership</a></li>
+                            <li><a href="">Media Kit</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div className="copyright-cont">
+            <i class='bx bx-down-arrow-alt'></i>
+            <p>@2025 Amazon.All rights Reserved</p>
+         </div>
         </footer>
-     );
-}
-const Foot = () => {
-    return ( 
-        <footer className="fot">
-         <h1>COMPLIANCE & TAX</h1>
-         <ul>
-           <li><a href="">Channels</a></li>
-           <li><a href="">Scale</a></li>
-          <li><a href="">Watch the Demo</a></li>
-           <li><a href="">Our Competition</a></li>
-         </ul>
-         <h2>BIS & CDSCO</h2>
-         <ol>
-            <li><a href="">About Us</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Leadership</a></li>
-            <li><a href="">Media Kit</a></li>
-         </ol>
-         <i class='bx bx-down-arrow-alt'></i>
-         <p>@2025 Amazon.All rights Reserved</p>
-        </footer>
-     );
+  )
 }
 
 function Home() {
     return (
-        <header>
+        <div>
+            <header>
             <img src="https://assets.upstox.com/content/assets/images/cms/202451/Amazon%20logo.png"/>
             <input type="checkbox" id="check"></input>
             <label for="check" className="checkbut">
@@ -139,6 +161,7 @@ function Home() {
                 <a href="">liveCount</a>
                 <a href="">Form</a>
             </nav>
+            </header>
             <div className="page">
                 <img src="https://register-karo-front-end-development-internship-website.vercel.app/poster.png" />
             </div>
@@ -147,16 +170,19 @@ function Home() {
                 <i class='bx bx-down-arrow-circle'></i>
                 <h2>Explore Our Services</h2>
             </div>
-            <Boxes/>
-            <Company/>
-            <Virtual/>
-            <Annual/>
-            <Payroll/>
-            <Booking/>
-            <All/>
+            <div className="boxs">
+                <Boxes/>
+                <Company/>
+                <Annual/>
+                <Payroll/>
+                <Virtual/>
+                <Cooking/>
+            </div>
+            <div className="button-all">
+                <All/>
+            </div>
             <Footer/>
-            <Foot/>
-        </header>
+        </div>
       );
 }
 
