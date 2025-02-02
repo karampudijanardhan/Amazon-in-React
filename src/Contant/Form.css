@@ -1,0 +1,56 @@
+.reality{
+    width: 100%;
+    height: 300px;
+    background-color:#fc88d9;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 5px 6px 6px;
+}
+.now p{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+}
+.now h2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+}
+.now input{
+    margin-top: 30px;
+    height: 50px;
+    width:350px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.now button{
+    height: 52px;
+    width: 80px;
+    font-size: 1.2rem;
+    padding: 7px 8px;
+    border: 2px solid #fff;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 15px;
+    position: relative;
+    right: 20px;
+}
+.result ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    margin-top: 40px;
+    color: white;
+}

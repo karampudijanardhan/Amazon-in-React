@@ -158,8 +158,8 @@ function Home() {
                 <a href="">Clients</a>
                 <a href="">Blog</a>
                 <a href="">Questions</a>
-                <a href="">liveCount</a>
-                <a href="">Form</a>
+                <a href="/src/Contant/Live.jsx">liveCount</a>
+                <a href="/src/Contant/Form.jsx">Form</a>
             </nav>
             </header>
             <div className="page">

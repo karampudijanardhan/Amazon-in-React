@@ -1,0 +1,199 @@
+.amazon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 9px 6px 10px;
+    margin-top: 100px;
+}
+.amazon img{
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+.amazon h2{
+    padding: 20px;
+    color: rgb(6, 96, 78);
+    align-items: center;
+    justify-content: center;
+}
+.amazon p{
+    padding: 20px 30px;
+    font-family:'Times New Roman', Times, serif;
+    gap: 10px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+.amazon button{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(23, 23, 232);
+    color: white;
+    margin-top: 20px;
+    border: 2px solid blue;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.amazon-in{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: center;
+}
+.amazon-in h2{
+    color: orange;
+}
+.amazon-in p{
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+.security{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10% 20px;
+    gap: 30px;
+
+}
+.confidental{
+    height: 150px;
+    width:500px ;
+    box-shadow: 6px 6px 9px;
+    background-color: rgb(245, 204, 188);
+    border-radius: 10px;
+    border: 2px solid  rgb(245, 204, 188);
+
+}
+.confidental h2{
+    margin-left: 15px;
+}
+.confidental-icon i{
+    float: right;
+    font-size: 2.3rem;
+    color: tomato;
+    padding: 10px 10px;
+    position: relative;
+    bottom: 20px;
+}
+.confidental p{
+    font-size: 1.2rem;
+    padding: 10px 20px ;
+    margin-top:20px
+}
+.hidden{
+    height: 150px;
+    width:500px ;
+    box-shadow: 6px 6px 9px;
+    background-color:rgb(207, 247, 207);
+    border-radius: 10px;
+    border: 2px solid rgb(207, 247, 207);
+
+}
+.hidden p{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.hidden i{
+ font-size: 2rem;
+ float: right;
+ padding: 10px 10px;
+ color: tomato;
+}
+.hidden h2{
+    margin-left: 15px;
+}
+.guaranted{
+    height: 150px;
+    width:500px ;
+    box-shadow: 6px 6px 9px;
+    background-color:rgb(199, 232, 253);
+    border-radius: 10px;
+    border: 2px solid rgb(199, 232, 253);
+
+}
+.guaranted p{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.guaranted i{
+ font-size: 2rem;
+ float: right;
+ padding: 10px 10px;
+ color: tomato;
+}
+.guaranted h2{
+    margin-left: 15px;
+}
+.expert{
+    height: 150px;
+    width:500px ;
+    box-shadow: 6px 6px 9px;
+    background-color:rgb(186, 177, 178);
+    border-radius: 10px;
+    border: 2px solid rgb(186, 177, 178);
+}
+.expert p{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.expert i{
+ font-size: 2rem;
+ float: right;
+ padding: 10px 10px;
+ color: tomato;
+}
+.expert h2{
+    margin-left: 15px;
+}
+.secure{
+    height: 150px;
+    width:500px ;
+    box-shadow: 6px 6px 9px;
+    background-color:rgb(128, 231, 231);
+    border-radius: 10px;
+    border: 2px solid rgb(186, 177, 178);
+}
+.secure p{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.secure i{
+ font-size: 2rem;
+ float: right;
+ padding: 10px 10px;
+ color: tomato;
+}
+.secure h2{
+    margin-left: 15px;
+}
+.vedio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.introduction{
+    width: 100%;
+    height: 100%;
+    box-shadow: 6px 6px 10px;
+    background-color: rgb(230, 240, 249);
+    border: 2px solid rgb(230, 240, 249) ;
+}
+.introduction h2{
+    margin-left: 20px;
+    color: rgb(83, 122, 4);
+}
+.introduction ol{
+    padding: 20px 30px;
+    font-size: 1rem;
+}
+.introduction img{
+    width: 100%;
+    height: 00px;
+}

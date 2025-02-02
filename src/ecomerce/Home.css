@@ -87,26 +87,29 @@
   text-align: center;
   padding-top: 20px;
 }
+
 .boxs{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left: 50px;
-  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 30px;
 }
 .box{
   width: 350px;
   height: 270px;
   border: 2px solid #ffffffc0;
   background-color: #05040400;
-  box-shadow: 10px 6px 10px;
-  margin-top: 30px;
+  box-shadow: 2px 2px 10px 2px;
 }
+
 .box i{
   display: flex;
   font-size: 2.4rem;
-  position: relative;
-  left: 150px;
+  justify-content: center;
   color: rgb(13, 13, 188);
 }
 .box h2{
@@ -133,27 +136,30 @@
   align-items: center;
 
 }
+
 .com{
   width: 350px;
   height: 270px;
   border: 2px solid #ffffffc0;
   background-color: #05040400;
-  box-shadow: 10px 6px 10px;
+  box-shadow: 2px 2px 10px 2px;;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 30px;
 }
 .com i{
   font-size: 2.4rem;
   color: rgb(13, 13, 188);
-  position: relative;
-  left: 150px;
+  display: flex;
+  justify-content: center;
+  margin-left: 140px;
 }
 .com h2{
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  margin-left: 10px;
+  padding: 5px;
 }
 .com p{
   padding: 5px;
@@ -173,13 +179,13 @@
   height: 270px;
   border: 2px solid #ffffffc0;
   background-color: #05040400;
-  box-shadow: 10px 6px 10px;
-  margin-top: 30px;
+  box-shadow:2px 2px 10px 2px;;
 }
 .vir i{
   font-size: 2.4rem;
   color: rgb(13, 13, 188);
-  margin-left: 150px;
+  display: flex;
+  justify-content: center;
 }
 .vir h2{
   text-align: center;
@@ -203,13 +209,13 @@
   height: 270px;
   border: 2px solid #ffffffc0;
   background-color: #05040400;
-  box-shadow: 10px 6px 10px;
-  margin-top: 30px;
+  box-shadow: 2px 2px 10px 2px;;
 }
 .anul i{
   font-size: 2.4rem;
   color: rgb(13, 13, 188);
-  margin-left: 150px
+  display: flex;
+  justify-content: center;
 }
 .anul h2{
   text-align: center;
@@ -233,14 +239,13 @@
   height: 270px;
   border: 2px solid #ffffffc0;
   background-color: #05040400;
-  box-shadow: 10px 6px 10px;
-  margin-top: 30px;
+  box-shadow: 2px 2px 10px 2px;;
 }
 .pay i{
   font-size: 2.4rem;
   color: rgb(13, 13, 188);
-  position: relative;
-  margin-left: 150px;
+  display: flex;
+  justify-content: center;
 }
 .pay h2{
   text-align: center;
@@ -263,13 +268,13 @@
   height: 270px;
   border: 2px solid #ffffffc0;
   background-color: #05040400;
-  box-shadow: 10px 6px 10px;
-  margin-top: 30px;
+  box-shadow: 2px 2px 10px 2px;
 }
 .book i{
   font-size: 2.4rem;
   color: rgb(13, 13, 188);
-  margin-left: 150px;
+  display: flex;
+  justify-content: center;
 }
 .book h2{
   text-align: center;
@@ -277,6 +282,11 @@
 .book p{
   padding: 10px;
 }
+
+
+
+
+
 .book button{
   width: 100px;
   height: 30px;
@@ -376,7 +386,6 @@
       color: tomato;
       border: 2px solid tomato;
       border-radius: 50px;
-      background-color: aquamarine;
     }
     .copyright-cont i {
       font-size: 40px;
@@ -410,41 +419,48 @@
 a{
   text-decoration: none;
 }
-@media only screen and (max-width: 890px) {
+ @media only screen and (max-width: 890px) {
   .checkbut {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     display: block;
-    
+    position: absolute;
+    right: 0;
+   
   }
   #check{
     display: none;
   }
   nav{
    display: flex;
-   flex-direction: column;
-    justify-content: space-between;
-    justify-items: center;
+   flex-direction: row;
     position: relative;
       left: -120%;
       transition: all .5s;
-      text-align: center;
-      top: 0px;
+      margin-top: 30px;
+      justify-content: center;
   }
   nav a{
-    display: flex;
-    margin-left: 250px;
+  font-size: 1rem;
+  padding: 7px;
+    
   }
   #check:checked~nav{
    left: 0px;
   }
   .page img{
-    width: 100%;
-    height: 500px;
-    margin-top: 500px;
+    margin-top: 100px;
   }
-
-
+  .footer p{
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
   
 }
+.wel h1{
+  text-align: center;
+  flex-wrap: wrap;
+  color: orange;
+  font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+ }
