@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Boxes = () => {
     return ( 
@@ -153,13 +155,13 @@ function Home() {
             <i class='bx bx-menu'></i>
             </label>
             <nav>
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Clients</a>
-                <a href="">Blog</a>
-                <a href="">Questions</a>
-                <a href="/src/Contant/Live.jsx">liveCount</a>
-                <a href="/src/Contant/Form.jsx">Form</a>
+                <Link>Home</Link>
+                <Link to="/Java">About us</Link>
+                <Link to="/Client">Clients</Link>
+                <Link to="/Blog">Blog</Link>
+                <Link to="/Faq">Questions</Link>
+                <Link to="/Live">LiveCount</Link>
+                <Link to="/Form">Form</Link>
             </nav>
             </header>
             <div className="page">

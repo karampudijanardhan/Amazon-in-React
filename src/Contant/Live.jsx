@@ -1,4 +1,5 @@
-
+import React from "react";
+import { Link } from "react-router-dom";
 const Regi = () => {
     return ( 
         <div className="regi">
@@ -104,13 +105,13 @@ function Live() {
                     <i class='bx bx-menu'></i>
                     </label>
                     <nav>
-                        <a href="">Home</a>
-                        <a href="">About Us</a>
-                        <a href="">Clients</a>
-                        <a href="">Blog</a>
-                        <a href="">Questions</a>
-                        <a href="">liveCount</a>
-                        <a href="">Form</a>
+                    <Link to="/Home">Home</Link>
+                <Link to="/Java">About us</Link>
+                <Link to="/Client">Clients</Link>
+                <Link to="/Blog">Blog</Link>
+                <Link to="/Faq">Questions</Link>
+                <Link to="/Live">LiveCount</Link>
+                <Link to="/Form">Form</Link>
                     </nav>
                     </header>
                     <Regi/>
