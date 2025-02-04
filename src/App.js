@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import { Analytics } from "@vercel/analytics/react"
+
 import'./ecomerce/Home.css';
 import './Contant/Java.css';
 import './Contant/Client.css';
